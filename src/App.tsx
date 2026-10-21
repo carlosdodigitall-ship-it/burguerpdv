@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ArrowRight, ShoppingBag, Flame, Menu, X, Plus, Minus, Trash2, LayoutDashboard, UtensilsCrossed, Store, Settings, Copy, CheckCircle2, ExternalLink, ArrowLeft, Save, Phone, MapPin, Clock3, Search, ChefHat, Sparkles, ShieldCheck, BarChart3, Smartphone, ChevronRight, Instagram } from "lucide-react";
+import { ArrowRight, ShoppingBag, Flame, Menu, X, Plus, Minus, Trash2, LayoutDashboard, UtensilsCrossed, Store, Settings, CheckCircle2, ExternalLink, ArrowLeft, Save, Phone, MapPin, Search, Sparkles, ShieldCheck, BarChart3, Smartphone, ChevronRight } from "lucide-react";
 
 type Product = { id: string; name: string; description: string; price: number; category: string; image: string; active: boolean };
 type StoreConfig = { name: string; slug: string; whatsapp: string; address: string; deliveryFee: number; logo: string; instagram: string; open: boolean };
